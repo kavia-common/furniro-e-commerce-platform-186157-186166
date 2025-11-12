@@ -3,6 +3,7 @@ const express = require('express');
 const routes = require('./routes');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('../swagger');
+require('dotenv').config();
 
 // Initialize express app
 const app = express();
